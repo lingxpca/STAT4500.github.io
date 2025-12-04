@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "STAT4500.github.io"
+  title: "STAT4500"
   navbar:
     left:
       - href: index.qmd
