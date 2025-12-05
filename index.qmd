@@ -1,5 +1,5 @@
 ---
-title: "STAT4500.github.io"
+title: "STAT4500 Spring 2026 "
 ---
 
 This is a Quarto website.
