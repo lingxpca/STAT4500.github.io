@@ -1,0 +1,31 @@
+---
+title: "Introduction to Data Science"
+format: html
+---
+
+
+## Lectures
+ 
+Lecture slides, class notes, and problem sets are linked below. New material is added approximately on a weekly basis.
+
+| Topic                     | Detailed Topics                                                                                                                      | #M |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------|----|
+| Intro to Python           | Python basics; built-in data structures (lists, dicts, tuples, sets); data types; basic file I/O; use of interactive shell / Jupyter / IPython | 2  |
+| Intermediate Python       | NumPy; Matplotlib; Pandas; logic; control flow; loops; filtering                                                                    | 2  |
+| Python Tool Box           | User-defined functions; lambda functions; iterators; comprehensions; generators; zip; streaming                                    | 2  |
+| Importing Data            | Flat files; `with`; `print`; NumPy; DataFrames                                                                                      | 1  |
+| Data Manipulation         | Cleaning data; handling missing values; merging/joining tables; concatenation; reshaping (wide ↔ long); data transformation; groupby; split-apply-combine; aggregation; summarization | 2 |
+| Data Visualization        | Tools; simple line/scatter/density/histograms; Matplotlib; Seaborn                                                                  | 2  |
+
+## Assessments
+
+#### GPTs Guided Learning
+<https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500>
+
+#### Labs
+#### Assignments
+
+
+```python
+print("hellow world") 
+```

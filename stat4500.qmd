@@ -1,0 +1,41 @@
+---
+title: "An Introduction to Statistical learning"
+format: html
+---
+
+## Lectures
+ 
+Lecture slides, class notes, and problem sets are linked below. New material is added approximately on a weekly basis.
+
+| #  | Module               | Detailed Topics                                                                 | #M |
+|----|----------------------|----------------------------------------------------------------------------------|----|
+| 1  | Foundations          | Python; variables & data types; arrays & DataFrames; file I/O; NumPy; Pandas    | 1  |
+| 2  | Machine Learning     | Optimization; definition and scope                                              | 1  |
+| 3  | Linear Regression    | OLS; interpretation; residual analysis; collinearity; diagnostics; training vs testing | 2 |
+| 4  | Logistic Regression  | Odds & log-odds; diagnostics; ROC; model comparison                             | 2  |
+| 5  | Feature Engineering  | Scaling; centering; transformations; interaction; encoding; preprocessing pipelines | 2 |
+| 6  | Lasso Regression     | Regularization; penalty; cross-validation; sparse solutions; stability of selected features | 2 |
+| 7  | K-Nearest Neighbors  | Distance; normalization; tuning K; visualization of decision regions; bias/variance | 1 |
+| 8  | Support Vector Machines | Maximum margin classifier; loss; kernel; comparison to KNN and logistic       | 1  |
+| 9  | Decision Trees       | Recursive partitioning; entropy and Gini; overfitting; pruning                  | 1  |
+| 10 | CART                 | Classification and regression trees; applications and technical aspects         | 2  |
+| 11 | Ensemble Methods     | Boosting; bagging; bias–variance trade-off; AdaBoost; random forest             | 1  |
+| 12 | Model Selection      | Overfitting vs generalization; LOOCV; k-fold CV; best subset; stepwise; shrinkage | 1 |
+| 13 | Principal Component Analysis (PCA) | Eigenvectors; projections; loading interpretation; projection geometry | 2 |
+| 14 | K-Means Clustering   | Distance; within-cluster variance; scaling; elbow method; silhouette            | 1  |
+| 15 | Image Classification | Image normalization; flattening; PCA compression; nearest-neighbor classification; visualization | 1 |
+| 16 | Natural Language Processing (NLP) | Bag-of-words; TF–IDF; sentiment scoring; logistic classifier; feature sparsity; interpretability | 1 |
+
+
+## Assessments
+
+#### GPTs Guided Learning
+<https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500>
+
+#### Labs
+#### Assignments
+
+
+```python
+print("hellow world") 
+```
