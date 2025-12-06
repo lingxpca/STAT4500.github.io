@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -106,7 +71,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar docked fullcontent quarto-light">
+<body class="nav-sidebar docked quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -125,7 +90,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -237,9 +202,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#lectures" id="toc-lectures" class="nav-link active" data-scroll-target="#lectures">Lectures</a></li>
+  <li><a href="#assessments" id="toc-assessments" class="nav-link" data-scroll-target="#assessments">Assessments</a>
+  <ul>
+  <li><a href="#gpts-guided-learning" id="toc-gpts-guided-learning" class="nav-link" data-scroll-target="#gpts-guided-learning">GPTs Guided Learning</a></li>
+  <li><a href="#labs" id="toc-labs" class="nav-link" data-scroll-target="#labs">Labs</a></li>
+  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./stat4500.html">STAT4500</a></li><li class="breadcrumb-item"><a href="./stat4500.html">Contents</a></li></ol></nav>
 <div class="quarto-title">
@@ -248,7 +227,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -265,17 +244,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Lecture slides, class notes, and problem sets are linked below. New material is added approximately on a weekly basis.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 3%">
-<col style="width: 19%">
-<col style="width: 73%">
-<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 18%">
+<col style="width: 69%">
+<col style="width: 7%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>#</th>
+<th>Week</th>
 <th>Module</th>
 <th>Detailed Topics</th>
-<th>#M</th>
+<th>Meetings</th>
 </tr>
 </thead>
 <tbody>
@@ -294,7 +273,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="odd">
 <td>3</td>
 <td>Linear Regression</td>
-<td>OLS; interpretation; residual analysis; collinearity; diagnostics; training vs testing</td>
+<td>OLS; interpretation; residual analysis; collinearity; diagnostics</td>
 <td>2</td>
 </tr>
 <tr class="even">
@@ -306,24 +285,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="odd">
 <td>5</td>
 <td>Feature Engineering</td>
-<td>Scaling; centering; transformations; interaction; encoding; preprocessing pipelines</td>
+<td>Scaling; centering; transformations; interaction; encoding; prepossessing</td>
 <td>2</td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>Lasso Regression</td>
-<td>Regularization; penalty; cross-validation; sparse solutions; stability of selected features</td>
+<td>Regularization; penalty; cross-validation; stability of selected features</td>
 <td>2</td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>K-Nearest Neighbors</td>
-<td>Distance; normalization; tuning K; visualization of decision regions; bias/variance</td>
+<td>Distance; normalization; tuning K; decision regions; bias/variance</td>
 <td>1</td>
 </tr>
 <tr class="even">
 <td>8</td>
-<td>Support Vector Machines</td>
+<td>SVM</td>
 <td>Maximum margin classifier; loss; kernel; comparison to KNN and logistic</td>
 <td>1</td>
 </tr>
@@ -348,12 +327,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="even">
 <td>12</td>
 <td>Model Selection</td>
-<td>Overfitting vs generalization; LOOCV; k-fold CV; best subset; stepwise; shrinkage</td>
+<td>Overfitting vs generalization; CV; best subset; stepwise; shrinkage</td>
 <td>1</td>
 </tr>
 <tr class="odd">
 <td>13</td>
-<td>Principal Component Analysis (PCA)</td>
+<td>PCA</td>
 <td>Eigenvectors; projections; loading interpretation; projection geometry</td>
 <td>2</td>
 </tr>
@@ -366,13 +345,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="odd">
 <td>15</td>
 <td>Image Classification</td>
-<td>Image normalization; flattening; PCA compression; nearest-neighbor classification; visualization</td>
+<td>Preprocessing; compression; classification;</td>
 <td>1</td>
 </tr>
 <tr class="even">
 <td>16</td>
-<td>Natural Language Processing (NLP)</td>
-<td>Bag-of-words; TF–IDF; sentiment scoring; logistic classifier; feature sparsity; interpretability</td>
+<td>NLP</td>
+<td>Bag-of-words; TF–IDF; sentiment scoring; Classfication; interpretability</td>
 <td>1</td>
 </tr>
 </tbody>
@@ -380,16 +359,99 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="assessments" class="level2">
 <h2 class="anchored" data-anchor-id="assessments">Assessments</h2>
-<section id="gpts-guided-learning" class="level4">
-<h4 class="anchored" data-anchor-id="gpts-guided-learning">GPTs Guided Learning</h4>
-<p><a href="https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500" class="uri">https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500</a></p>
+<p>Students must submit: Full prompt. transcripts, R code, Results. Guided Learning Assignments, Labs exam, and Final Project.</p>
+<section id="gpts-guided-learning" class="level3">
+<h3 class="anchored" data-anchor-id="gpts-guided-learning">GPTs Guided Learning</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>GL</th>
+<th>Topics</th>
+<th>Details</th>
+<th>GPTs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>G1</td>
+<td>3–6</td>
+<td>Fit linear and logistic models; feature engineering; interpretation</td>
+<td><a href="https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500" class="uri">https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500</a></td>
+</tr>
+<tr class="even">
+<td>G2</td>
+<td>7–9</td>
+<td>Implement KNN, SVM, and decision trees; tuning; validation</td>
+<td><a href="https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500" class="uri">https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500</a></td>
+</tr>
+<tr class="odd">
+<td>G3</td>
+<td>11–12</td>
+<td>Validation; training vs testing; model selection</td>
+<td><a href="https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500" class="uri">https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500</a></td>
+</tr>
+<tr class="even">
+<td>G4</td>
+<td>13–14</td>
+<td>Perform PCA; interpretation; cluster analysis</td>
+<td><a href="https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500" class="uri">https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500</a></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="labs" class="level4">
-<h4 class="anchored" data-anchor-id="labs">Labs</h4>
+<section id="labs" class="level3">
+<h3 class="anchored" data-anchor-id="labs">Labs</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 18%">
+<col style="width: 22%">
+<col style="width: 54%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lab</th>
+<th>Topics</th>
+<th>Datasets</th>
+<th>Goal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L0</td>
+<td>Python Refresher</td>
+<td>Chronic Kidney Disease</td>
+<td>Organize, combine, impute, and visualize data</td>
+</tr>
+<tr class="even">
+<td>L1</td>
+<td>Linear Regression</td>
+<td>Wine or Moneyball</td>
+<td>Build, optimize, experiment with, and interpret regression models</td>
+</tr>
+<tr class="odd">
+<td>L2</td>
+<td>Logistic Regression</td>
+<td>Framingham</td>
+<td>Build a Framingham risk score</td>
+</tr>
+<tr class="even">
+<td>L3</td>
+<td>CART</td>
+<td>Vandalism in Wikipedia</td>
+<td>Predict whether a revision is vandalism</td>
+</tr>
+<tr class="odd">
+<td>L4</td>
+<td>Linear Optimization</td>
+<td>Radiation Therapy</td>
+<td>Experiment with different objective functions</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="assignments" class="level4">
-<h4 class="anchored" data-anchor-id="assignments">Assignments</h4>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"hellow world"</span>) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="assignments" class="level3">
+<h3 class="anchored" data-anchor-id="assignments">Assignments</h3>
 
 
 </section>
