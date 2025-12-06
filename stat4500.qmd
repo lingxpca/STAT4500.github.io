@@ -1,41 +1,65 @@
 ---
 title: "An Introduction to Statistical learning"
-format: html
+format:
+  html:
+    toc: true
+    toc-location: right
+    number-sections: false
+    toc-expand: 3
 ---
 
 ## Lectures
  
 Lecture slides, class notes, and problem sets are linked below. New material is added approximately on a weekly basis.
 
-| #  | Module               | Detailed Topics                                                                 | #M |
-|----|----------------------|----------------------------------------------------------------------------------|----|
-| 1  | Foundations          | Python; variables & data types; arrays & DataFrames; file I/O; NumPy; Pandas    | 1  |
-| 2  | Machine Learning     | Optimization; definition and scope                                              | 1  |
-| 3  | Linear Regression    | OLS; interpretation; residual analysis; collinearity; diagnostics; training vs testing | 2 |
-| 4  | Logistic Regression  | Odds & log-odds; diagnostics; ROC; model comparison                             | 2  |
-| 5  | Feature Engineering  | Scaling; centering; transformations; interaction; encoding; preprocessing pipelines | 2 |
-| 6  | Lasso Regression     | Regularization; penalty; cross-validation; sparse solutions; stability of selected features | 2 |
-| 7  | K-Nearest Neighbors  | Distance; normalization; tuning K; visualization of decision regions; bias/variance | 1 |
-| 8  | Support Vector Machines | Maximum margin classifier; loss; kernel; comparison to KNN and logistic       | 1  |
-| 9  | Decision Trees       | Recursive partitioning; entropy and Gini; overfitting; pruning                  | 1  |
-| 10 | CART                 | Classification and regression trees; applications and technical aspects         | 2  |
-| 11 | Ensemble Methods     | Boosting; bagging; bias–variance trade-off; AdaBoost; random forest             | 1  |
-| 12 | Model Selection      | Overfitting vs generalization; LOOCV; k-fold CV; best subset; stepwise; shrinkage | 1 |
-| 13 | Principal Component Analysis (PCA) | Eigenvectors; projections; loading interpretation; projection geometry | 2 |
-| 14 | K-Means Clustering   | Distance; within-cluster variance; scaling; elbow method; silhouette            | 1  |
-| 15 | Image Classification | Image normalization; flattening; PCA compression; nearest-neighbor classification; visualization | 1 |
-| 16 | Natural Language Processing (NLP) | Bag-of-words; TF–IDF; sentiment scoring; logistic classifier; feature sparsity; interpretability | 1 |
+| Week| Module               | Detailed Topics                                                                 | Meetings|
+|-----|----------------------|---------------------------------------------------------------------------------|---------|
+| 1   | Foundations          | Python; variables & data types; arrays & DataFrames; file I/O; NumPy; Pandas    | 1       |
+| 2   | Machine Learning     | Optimization; definition and scope                                              | 1       |
+| 3   | Linear Regression    | OLS; interpretation; residual analysis; collinearity; diagnostics               | 2       |
+| 4   | Logistic Regression  | Odds & log-odds; diagnostics; ROC; model comparison                             | 2       |
+| 5   | Feature Engineering  | Scaling; centering; transformations; interaction; encoding; prepossessing       | 2       |
+| 6   | Lasso Regression     | Regularization; penalty; cross-validation; stability of selected features       | 2       |
+| 7   | K-Nearest Neighbors  | Distance; normalization; tuning K; decision regions; bias/variance              | 1       |
+| 8   | SVM                  | Maximum margin classifier; loss; kernel; comparison to KNN and logistic         | 1       |
+| 9   | Decision Trees       | Recursive partitioning; entropy and Gini; overfitting; pruning                  | 1       |
+| 10  | CART                 | Classification and regression trees; applications and technical aspects         | 2       |
+| 11  | Ensemble Methods     | Boosting; bagging; bias–variance trade-off; AdaBoost; random forest             | 1       |
+| 12  | Model Selection      | Overfitting vs generalization;  CV; best subset; stepwise; shrinkage            | 1       |
+| 13  | PCA                  | Eigenvectors; projections; loading interpretation; projection geometry          | 2       |
+| 14  | K-Means Clustering   | Distance; within-cluster variance; scaling; elbow method; silhouette            | 1       |
+| 15  | Image Classification | Preprocessing; compression; classification;                                     | 1       |
+| 16  | NLP                  | Bag-of-words; TF–IDF; sentiment scoring; Classfication; interpretability        | 1       |
 
 
 ## Assessments
-
-#### GPTs Guided Learning
-<https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500>
-
-#### Labs
-#### Assignments
+Students must submit: Full prompt. transcripts, R code, Results. Guided Learning Assignments, Labs exam, and Final Project. 
 
 
-```python
-print("hellow world") 
-```
+### GPTs Guided Learning
+
+| GL    | Topics | Details                                                                 |GPTs                                                            |
+|-------|--------|-------------------------------------------------------------------------|----------------------------------------------------------------|
+| G1    | 3–6    | Fit linear and logistic models; feature engineering; interpretation     |<https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500>|
+| G2    | 7–9    | Implement KNN, SVM, and decision trees; tuning; validation              |<https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500>|
+| G3    | 11–12  | Validation; training vs testing; model selection                        |<https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500>|
+| G4    | 13–14  | Perform PCA; interpretation; cluster analysis                           |<https://chatgpt.com/g/g-69309d3545bc8191967b94e22738ddd8-sp500>|
+
+
+### Labs
+
+| Lab | Topics                | Datasets                   | Goal                                                             |
+|-----|-----------------------|----------------------------|------------------------------------------------------------------|
+| L0  | Python Refresher      | Chronic Kidney Disease     | Organize, combine, impute, and visualize data                    |
+| L1  | Linear Regression     | Wine or Moneyball          | Build, optimize, experiment with, and interpret regression models|
+| L2  | Logistic Regression   | Framingham                 | Build a Framingham risk score                                    |
+| L3  | CART                  | Vandalism in Wikipedia     | Predict whether a revision is vandalism                          |
+| L4  | Linear Optimization   | Radiation Therapy          | Experiment with different objective functions                    |
+
+
+### Assignments
+ 
+
+ 
+
+ 

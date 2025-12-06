@@ -1,6 +1,10 @@
 ---
 title: "Statistics with R Programming"
-format: html
+format:
+  html:
+    toc: true
+    toc-location: right
+    number-sections: true
 ---
 
 ## Lectures

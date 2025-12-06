@@ -35,5 +35,12 @@ website:
           - text: "Resources"
             href: index.qmd
   page-footer: "Copyright 2026, Xiao Ling"
- 
+  
+format:
+  html:
+    toc: true           
+    toc-location: right  
+    toc-depth: 4
+    number-sections: true   
+    page-layout: full
           

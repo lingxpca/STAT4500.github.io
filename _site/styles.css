@@ -1,0 +1,4 @@
+/* Prevent table cell wrapping */
+table td, table th {
+  white-space: nowrap;
+}

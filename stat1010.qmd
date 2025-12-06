@@ -1,6 +1,10 @@
 ---
 title: "Introduction to Data Science"
-format: html
+format:
+  html:
+    toc: true
+    toc-location: right
+    number-sections: true
 ---
 
 
